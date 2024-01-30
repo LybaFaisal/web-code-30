@@ -66,3 +66,12 @@ let Student_Info={
     }
 };
 Student_Info.Information();
+
+//....Don't use this keyword here
+
+let Student_Info1={
+    Information: function(Name,reg_no,grade){
+        console.log(`The name of Student: ${Name} \nThe reg_no of person: ${reg_no} \nThe Grade of this person: ${grade}`);
+    }
+};
+Student_Info1.Information('Lyba',1222233,89);
