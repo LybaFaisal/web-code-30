@@ -5,7 +5,7 @@ console.log(`The model of my car is ${car["Model"]}`);
 
 //Student Example
 
-let Student={
+let Student = {
     name: "Lyba",
     age: 20,
     grade: "senior",
@@ -20,7 +20,7 @@ console.log(`The uni of student: ${Student.uni}`);
 
 //Product Catalog
 
-let laptop={
+let laptop = {
     generation: "AMD",
     price: "High",
     battery_timing: "Good",
@@ -30,3 +30,14 @@ console.log("Laptop Info:");
 console.log(`Generation:  ${laptop.generation}`);
 console.log(`Price:  ${laptop.price}`);
 console.log(`Battery Timing:  ${laptop.battery_timing}`);
+
+//Bank Info
+
+let bank = {
+    holder_name: "Max",
+    acc_number: 1234,
+    acc_balance: 10000
+};
+
+console.log("Bank info:");
+console.log(`Holder Name: ${bank.holder_name} \nAccount Number: ${bank.acc_number} \nAccount Balance: ${bank.acc_balance}`);
