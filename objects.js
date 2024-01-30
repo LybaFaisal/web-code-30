@@ -41,3 +41,16 @@ let bank = {
 
 console.log("Bank info:");
 console.log(`Holder Name: ${bank.holder_name} \nAccount Number: ${bank.acc_number} \nAccount Balance: ${bank.acc_balance}`);
+
+//object with function
+
+let person = {
+    name: "Harry",
+    age: 20,
+    ID: 1234,
+    full_info: function () {
+        console.log(`The name of person: ${this.name} \nThe age of person: ${this.age} \nThe ID of this person: ${this.ID}`);
+    }
+};
+
+person.full_info();  //call
