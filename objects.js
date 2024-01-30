@@ -54,3 +54,15 @@ let person = {
 };
 
 person.full_info();  //call
+
+//Example 2
+
+let Student_Info={
+    Name:"Lyba",
+    reg_no: 184,
+    grade: 11,
+    Information: function(){
+        console.log(`The name of Student: ${this.Name} \nThe reg_no of person: ${this.reg_no} \nThe Grade of this person: ${this.grade}`);
+    }
+};
+Student_Info.Information();
