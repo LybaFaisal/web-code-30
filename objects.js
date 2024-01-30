@@ -75,3 +75,15 @@ let Student_Info1={
     }
 };
 Student_Info1.Information('Lyba',1222233,89);
+
+
+//JSON.stringify()
+
+let Student_Info2={
+    Name:"Lyba",
+    reg_no: 184,
+    grade: 11,
+};
+
+let Std_obj=JSON.stringify(Student_Info2);
+console.log(Std_obj);
