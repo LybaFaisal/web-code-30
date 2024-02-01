@@ -111,3 +111,14 @@ let recipe={
 };
 
 recipe.display_recipe();
+
+//function # 2
+//without this keyword
+
+let movie={
+    movie_info: function(title,releasedate,director){
+        console.log(`the title: ${title} \nRelease date: ${releasedate} \nDirector: ${director}`);
+    }
+};
+
+movie.movie_info("ABCD","Jan1,1898","XYZ");
