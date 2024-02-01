@@ -57,11 +57,11 @@ person.full_info();  //call
 
 //Example 2
 
-let Student_Info={
-    Name:"Lyba",
+let Student_Info = {
+    Name: "Lyba",
     reg_no: 184,
     grade: 11,
-    Information: function(){
+    Information: function () {
         console.log(`The name of Student: ${this.Name} \nThe reg_no of person: ${this.reg_no} \nThe Grade of this person: ${this.grade}`);
     }
 };
@@ -69,21 +69,32 @@ Student_Info.Information();
 
 //....Don't use this keyword here
 
-let Student_Info1={
-    Information: function(Name,reg_no,grade){
+let Student_Info1 = {
+    Information: function (Name, reg_no, grade) {
         console.log(`The name of Student: ${Name} \nThe reg_no of person: ${reg_no} \nThe Grade of this person: ${grade}`);
     }
 };
-Student_Info1.Information('Lyba',1222233,89);
+Student_Info1.Information('Lyba', 1222233, 89);
 
 
 //JSON.stringify()
 
-let Student_Info2={
-    Name:"Lyba",
+let Student_Info2 = {
+    Name: "Lyba",
     reg_no: 184,
     grade: 11,
 };
 
-let Std_obj=JSON.stringify(Student_Info2);
+let Std_obj = JSON.stringify(Student_Info2);
 console.log(Std_obj);
+
+//Objects Simple Example
+
+let book = {
+    name: "Jannat K pattay",
+    genre: "Fiction",
+    Author: "Nemrah Ahmad",
+    pages: 1470
+};
+
+console.log(`The name of book: ${book.name} \nThe genre of the book: ${book.genre} \nThe author: ${book.Author} \nThe total pages: ${book.pages}`);
