@@ -98,3 +98,16 @@ let book = {
 };
 
 console.log(`The name of book: ${book.name} \nThe genre of the book: ${book.genre} \nThe author: ${book.Author} \nThe total pages: ${book.pages}`);
+
+//Objects With Functions
+
+let recipe={
+    name: "Chocolate Chip cookies",
+    Servings: 35,
+    ingredients: ["milk","egg","butter","chocolate Chips"],
+    display_recipe: function(){
+        console.log(`Name of recipe: ${this.name} \nServings: ${this.Servings}  \nIngredients: ${this.ingredients}`);
+    }
+};
+
+recipe.display_recipe();
